@@ -1,0 +1,10 @@
+{
+  "name": "SafeStop",
+  "short_name": "SafeStop",
+  "description": "Find clean, safe and accessible toilets near you.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#F3F7F6",
+  "theme_color": "#0F2F36",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
