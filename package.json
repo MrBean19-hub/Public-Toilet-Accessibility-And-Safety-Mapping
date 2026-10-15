@@ -1,0 +1,26 @@
+{
+  "name": "safestop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dynamic Accessibility & Safety Index for Public Sanitation: a crowd-sourced, AI-assisted map of safe, clean and accessible toilets.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test tests/scoring.test.js tests/imageAudit.test.js tests/filters.test.js"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "vite": "^5.4.10"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
