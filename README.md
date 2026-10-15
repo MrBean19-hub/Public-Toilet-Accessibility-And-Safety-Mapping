@@ -68,7 +68,7 @@ All optional. See [`.env.example`](.env.example) for the placeholder file.
 | Variable | Default | Purpose |
 |---|---|---|
 | `VITE_APP_NAME` | `SafeStop` | Brand name in the header |
-| `VITE_DEFAULT_LAT` / `VITE_DEFAULT_LNG` | `28.6139` / `77.2090` | Where the map opens. Demo places are placed around this point, so set it to your city |
+| `VITE_DEFAULT_LAT` / `VITE_DEFAULT_LNG` | `26.9124` / `75.7873` | Where the map opens. Demo places are placed around this point, so set it to your city |
 | `VITE_DEFAULT_ZOOM` | `13` | Initial zoom |
 | `VITE_MAP_TILE_URL` | OpenStreetMap | Any XYZ tile server |
 | `VITE_REVIEW_COOLDOWN_MIN` | `5` | Minutes between two reviews of the same place |
