@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
+import Chatbot from "./components/Chatbot";
 import AddPlaceModal from './components/AddPlaceModal.jsx';
 import FilterBar from './components/FilterBar.jsx';
 import MapView from './components/MapView.jsx';
@@ -152,6 +153,7 @@ export default function App() {
 
       {adding && <AddPlaceModal location={mapCenter} onSave={handleAddPlace} onClose={() => setAdding(false)} />}
       {toast && <div className="toast" role="status">{toast}</div>}
+      <Chatbot />
     </div>
   );
 }
