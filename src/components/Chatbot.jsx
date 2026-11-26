@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import "./Chatbot.css";
+import "./components/Chatbot.css";
 
 const CHAT_URL = "https://safestop-chat.sunnygupta192007.workers.dev";
 
